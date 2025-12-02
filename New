@@ -1,0 +1,184 @@
+a) Functional and Non-Functional Requirements of E-Ticketing System
+
+Functional Requirements (What the system should do)
+
+1. User Registration & Login
+
+Users should be able to create accounts and log in securely.
+
+
+
+2. Search for Tickets
+
+Users can search for buses/trains/flights based on date, time, source, destination.
+
+
+
+3. View Available Seats
+
+System shows seat availability in real-time.
+
+
+
+4. Ticket Booking
+
+Users can select seats and book tickets.
+
+
+
+5. Payment Processing
+
+System supports online payment (UPI, card, wallet, net banking).
+
+
+
+6. Generate E-Ticket
+
+System generates a digital ticket (PDF/Email/SMS).
+
+
+
+7. Cancel Ticket
+
+Users can cancel booked tickets and receive refunds.
+
+
+
+8. Booking History
+
+Users can view previous & active bookings.
+
+
+
+9. Admin Management
+
+Admin can add/edit/delete schedules, routes, prices.
+
+
+
+10. Notifications
+
+
+
+Email/SMS notifications on booking, cancellation, delays.
+
+
+
+---
+
+Non-Functional Requirements (Quality of the system)
+
+1. Performance
+
+System must load results within 3–5 seconds.
+
+
+
+2. Scalability
+
+Should support large numbers of concurrent users.
+
+
+
+3. Security
+
+Encrypted passwords, secure payments, data protection.
+
+Must follow SSL/HTTPS.
+
+
+
+4. Availability
+
+System should be available 24×7.
+
+
+
+5. Reliability
+
+Should not lose data during transactions.
+
+
+
+6. Usability
+
+Easy-to-use UI for all age groups.
+
+
+
+7. Maintainability
+
+Easy updates without downtime.
+
+
+
+8. Compatibility
+
+Work on mobile, tablets, laptops, all browsers.
+
+
+
+
+
+---
+
+b) Use Case Diagram for E-Ticketing System
+
+Actors:
+
+User
+
+Admin
+
+Payment Gateway
+
+
+Use Cases:
+
+Register
+
+Login
+
+Search Tickets
+
+View Seats
+
+Book Ticket
+
+Make Payment
+
+Generate E-Ticket
+
+Cancel Ticket
+
+View Booking History
+
+Manage Schedules (Admin)
+
+Manage Routes (Admin)
+
+
+Description (Text form since diagrams cannot be drawn as images):
+
++-----------------------+
+                  |     E–Ticketing       |
+                  |       System          |
+                  +-----------------------+
+           User ------------------------------|
+                 |-- Register
+                 |-- Login
+                 |-- Search Tickets
+                 |-- View Seats
+                 |-- Book Ticket
+                 |-- Make Payment --> Payment Gateway
+                 |-- Generate E–Ticket
+                 |-- Cancel Ticket
+                 |-- View Booking History
+
+           Admin -----------------------------|
+                 |-- Manage Routes
+                 |-- Manage Schedules
+                 |-- Update Prices
+
+If you want, I can generate a proper UML diagram using image generation.
+
