@@ -1,0 +1,87 @@
+-1
+New item - Maven_build
+Freestyle 
+Souce code- give repo
+Branch- main
+
+Build steps. Invoke top -
+MAVEN_HOME
+goals- clean
+
+Again then give, goal- install
+
+Add post build. Archive artifacts-
+**/*
+Build other project-
+Maven_test
+Apply, save
+
+
+
+
+
+
+New item- Maven_test
+Freestyle 
+
+Delete workspace 
+Add build steps,
+Copy artifacts- 
+Maven_build
+Artfacts to copy-(**/*)
+
+Invoke top- 
+MAVEN_HOME
+test
+
+
+Post build-
+Archive artifacts- 
+**/*
+Apply, save 
+
+
+
+
+
+
+Then give pipeline -
+Up press +
+Give name 
+Build pipeline view 
+Create
+
+pipeline flow-
+Maven_build
+Apply, ok
+
+Then run pipeline
+
+
+
+
+
+-2
+Sudo apt update
+Sudo apt-get install docker.io
+Sudo apt install git
+Sudo apt install nano
+
+Index.html git bash
+Git in it
+Git add .
+Git commit - m "first commit"
+Paste from git
+Git clone link.....
+Ls
+Cd folder name
+Ls
+Nano docker file
+
+
+FROM ngnix:alpine
+COPY . /usr/share/ngnix/html
+
+
+Sudo docker build -t mywebapp .
+Sudo docker run -d -p 80:80 mywebapp
